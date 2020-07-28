@@ -60,7 +60,7 @@ header{
 }
 main{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	background: #ccc;
 }
 .mainH{
@@ -92,5 +92,40 @@ main{
 	}
 	span{
 		font-style: 18px;
+	}
+}
+.mainBox{
+	display: flex;
+	flex-direction: row;
+	padding: 0 50px;
+	height: 470px;
+	.sidebar{
+		flex: 1;
+		background: #fff;
+	}
+	.FlexTwo{
+		flex: 2;
+		display: flex;
+			flex-direction: column;
+			align-items: center;
+		.complete{
+			width: 100%;
+			background: #000;
+			height: 100%;
+		}
+		.flexText{
+			width: 100%;
+			background: #3fa9f5;
+			.text{
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				font-size: 18px;
+				line-height: 28px;
+				color: #fff;
+				font-family: 'Heebo Regular';
+			}
+		}
+		
 	}
 }

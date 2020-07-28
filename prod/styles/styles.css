@@ -56,7 +56,7 @@ header {
 
 main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background: #ccc; }
 
 .mainH {
@@ -83,3 +83,31 @@ main {
     font-size: 14px; }
   .mainH span {
     font-style: 18px; }
+
+.mainBox {
+  display: flex;
+  flex-direction: row;
+  padding: 0 50px;
+  height: 470px; }
+  .mainBox .sidebar {
+    flex: 1;
+    background: #fff; }
+  .mainBox .FlexTwo {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .mainBox .FlexTwo .complete {
+      width: 100%;
+      background: #000;
+      height: 100%; }
+    .mainBox .FlexTwo .flexText {
+      width: 100%;
+      background: #3fa9f5; }
+      .mainBox .FlexTwo .flexText .text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 18px;
+        line-height: 28px;
+        color: #fff; }
