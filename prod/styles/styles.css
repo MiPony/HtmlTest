@@ -110,4 +110,16 @@ main {
         justify-content: center;
         font-size: 18px;
         line-height: 28px;
-        color: #fff; }
+        color: #fff;
+        font-family: 'Heebo Regular'; }
+
+.SocialFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 60px 50px; }
+  .SocialFooter div a {
+    padding-right: 12px; }
+
+.lastImage {
+  padding-bottom: 5px; }
